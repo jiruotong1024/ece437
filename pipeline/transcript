@@ -1,0 +1,177 @@
+# //  Questa Sim-64
+# //  Version 10.3b linux_x86_64 May 29 2014
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:02:58 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# ** Error: (vlog-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Error: Library work not found.
+# ** Error: Verilog Compiler exiting
+# End time: 11:02:58 on Aug 26,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+work
+# invalid command name "work"
+vlog work
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:03:36 on Aug 26,2015
+# vlog -reportprogress 300 work 
+# ** Error: (vlog-7) Failed to open design unit file "work" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 11:03:36 on Aug 26,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:06:08 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# ** Error: (vlog-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Error: Library work not found.
+# ** Error: Verilog Compiler exiting
+# End time: 11:06:08 on Aug 26,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+lib work
+# bad option "work": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+vlib work
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:06:52 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# ** Error: register_file.sv(1): Cannot find `include file "register_file_if.vh" in directories:
+#     /package/eda/mg/questa10.3b/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /package/eda/mg/questa10.3b/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module register_file
+# ** Error: register_file.sv(8): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: register_file.sv(12): (vlog-2730) Undefined variable: 'new_register'.
+# ** Error: register_file.sv(17): (vlog-2730) Undefined variable: 'new_register'.
+# ** Error: register_file.sv(18): near "end": syntax error, unexpected end, expecting ';'
+# ** Error: register_file.sv(25): near "endmodule": syntax error, unexpected endmodule
+# End time: 11:06:52 on Aug 26,2015, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:08:47 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# ** Error: register_file.sv(1): Cannot find `include file "register_file_if.vh" in directories:
+#     /package/eda/mg/questa10.3b/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /package/eda/mg/questa10.3b/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module register_file
+# ** Error: register_file.sv(8): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: register_file.sv(12): (vlog-2730) Undefined variable: 'new_register'.
+# ** Error: register_file.sv(17): (vlog-2730) Undefined variable: 'new_register'.
+# ** Error: register_file.sv(23): (vlog-2730) Undefined variable: 'new_register'.
+# End time: 11:08:48 on Aug 26,2015, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:11:19 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# ** Error: register_file.sv(1): Cannot find `include file "register_file_if.vh" in directories:
+#     /package/eda/mg/questa10.3b/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /package/eda/mg/questa10.3b/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: register_file.sv(2): Cannot find `include file "cpu_types_pkg.vh" in directories:
+#     /package/eda/mg/questa10.3b/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /package/eda/mg/questa10.3b/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: register_file.sv(3): (vlog-13006) Could not find the package (cpu_types_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# ** Error: register_file.sv(5): near "module": syntax error, unexpected module, expecting ';' or ','
+# End time: 11:11:20 on Aug 26,2015, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:12:06 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# ** Error: register_file.sv(1): Cannot find `include file "register_file_if.vh" in directories:
+#     /package/eda/mg/questa10.3b/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /package/eda/mg/questa10.3b/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling package cpu_types_pkg
+# ** Error: register_file.sv(3): (vlog-13006) Could not find the package (cpu_types_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# ** Error: register_file.sv(5): near "module": syntax error, unexpected module, expecting ';' or ','
+# End time: 11:12:06 on Aug 26,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:12:25 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# -- Compiling package cpu_types_pkg
+# -- Compiling interface register_file_if
+# -- Importing package cpu_types_pkg
+# ** Error: register_file.sv(5): near "module": syntax error, unexpected module, expecting ';' or ','
+# ** Error: register_file.sv(13): near "always_ff": syntax error, unexpected always_ff, expecting class
+# End time: 11:12:26 on Aug 26,2015, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:12:39 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# -- Compiling package cpu_types_pkg
+# -- Compiling interface register_file_if
+# -- Importing package cpu_types_pkg
+# -- Compiling package register_file_sv_unit
+# -- Importing package cpu_types_pkg
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 11:12:39 on Aug 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave*
+# ** Error: bad option "wave*": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+add wave
+# wrong number of args for "add wave".
+# Usage: add wave [-allowconstants] [-clampanalog {0|1}] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-format <type> | -<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-mvcall] [-mvcovm] [-mvcreccomplete] [-noupdate] [-numdynitem <int>] [-optcells] [-position <location>] [-queueends] [-radix <type> | -<radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-startdynitem <int>] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 ...}}] 
+run -all
+# No Design Loaded!
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:13:45 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# -- Compiling package cpu_types_pkg
+# -- Compiling interface register_file_if
+# -- Importing package cpu_types_pkg
+# -- Compiling module register_file
+# ** Error: register_file.sv(11): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: register_file.sv(15): (vlog-2730) Undefined variable: 'new_register'.
+# ** Error: register_file.sv(20): (vlog-2730) Undefined variable: 'new_register'.
+# ** Error: register_file.sv(26): (vlog-2730) Undefined variable: 'new_register'.
+# End time: 11:13:46 on Aug 26,2015, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog register_file.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 11:13:56 on Aug 26,2015
+# vlog -reportprogress 300 register_file.sv 
+# -- Compiling package cpu_types_pkg
+# -- Compiling interface register_file_if
+# -- Importing package cpu_types_pkg
+# -- Compiling package register_file_sv_unit
+# -- Importing package cpu_types_pkg
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 11:13:56 on Aug 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
