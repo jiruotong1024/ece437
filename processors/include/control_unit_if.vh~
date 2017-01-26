@@ -1,0 +1,28 @@
+`ifndef CONTROL_UNIT_IF_VH
+`define CONTROL_UNIT_IF_VH
+
+// ram memory types
+`include "cpu_types_pkg.vh"
+
+
+interface control_unit_if;
+  // import types
+  import cpu_types_pkg::*;
+
+  // access with cpuid on each processor
+  parameter CPUS = 1;
+
+
+  // arbitration
+  logic   [CPUS-1:0]  RegDst,ALUSrc,MemtoReg,RegWrite,Branch,Jump,ExtOp,ALUop,RWEN,halt;
+  logic   [2:0] jump_addr;
+  word_t instruction;
+  modport cu(
+	input instruction,
+	output RegDst,ALUSrc,MemtoReg,RegWrite,Branch,Jump,ExtOp,ALUop,jump_addr
+)
+
+
+endinterface
+
+`endif
